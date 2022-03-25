@@ -1,0 +1,100 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #152a44;
+  font-family: Arial, Helvetica, freesans, sans-serif;
+  text-align: center;
+  border: #f1f1f1 solid 2px;
+}
+
+li {
+  float: left;
+  font-family: Arial, Helvetica, freesans, sans-serif;
+  text-align: center;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgba(150, 231, 218, 0.74);
+}
+
+.search-container {
+  float: right;
+}
+
+.search-container input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgb(150, 231, 218, 0.74);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+body {
+  background-color: #2a415f;
+  color: white;
+  font-family: verdana;
+}
+
+h1 {
+  color: lightskyblue;
+  text-shadow: 3cm;
+  text-align: center;
+}
+#p1 {
+  border: lightskyblue 3px solid;
+}
+#p2 {
+  border: lightskyblue 3px solid;
+}
+body {
+  line-height: 30px;
+}
+tr,
+td {
+  border: white 2px solid;
+  border-style: dashed;
+  border-collapse: collapse;
+}
+#table1 {
+  background-color: #2a415f;
+  border-collapse: collapse;
+}
+#table2 {
+  background-color: rgb(0, 107, 173);
+  border: white 2px solid;
+  border-collapse: collapse;
+  border-style: dashed;
+}
+#table3 {
+  background-color: rgb(0, 107, 173);
+  border: white 2px solid;
+  border-collapse: collapse;
+  border-style: dashed;
+}
+hr {
+  border: lightsalmon 2.5px dashed;
+}

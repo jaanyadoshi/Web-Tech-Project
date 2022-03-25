@@ -1,0 +1,86 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #152a44;
+  font-family: Arial, Helvetica, freesans, sans-serif;
+  text-align: center;
+  border: #f1f1f1 solid 2px;
+}
+
+li {
+  float: left;
+  font-family: Arial, Helvetica, freesans, sans-serif;
+  text-align: center;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgba(150, 231, 218, 0.74);
+}
+
+.search-container {
+  float: right;
+}
+
+.search-container input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgb(150, 231, 218, 0.74);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+body {
+  background-color: #2a415f;
+  color: rgb(42, 45, 97);
+  text-align: center;
+  font-family: verdana;
+}
+form {
+  background-color: rgb(87, 160, 148);
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  text-align: center;
+}
+h1 {
+  color: lightsalmon;
+}
+table {
+  background-color: rgb(31, 88, 78);
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ccc;
+  text-align: center;
+}
+tr,
+td {
+  border: #152a44 2px solid;
+  border-collapse: collapse;
+}
+hr {
+  border: lightsalmon 2.5px dashed;
+}
