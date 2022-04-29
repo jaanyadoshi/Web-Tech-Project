@@ -124,5 +124,13 @@
       >
     </p>
     <hr />
+    <script>
+      function change() {
+        console.log("..starting change func...");
+        document.getElementById("h1").innerText =
+          "Good things come in small packets, Well not always!";
+      }
+      document.querySelector("h1").onclick = change;
+    </script>
   </body>
 </html>

@@ -59,6 +59,7 @@
             width="750"
             onmouseover="this.src='https://www.usaba.org/wp-content/uploads/Picture6-2.jpg'"
             onmouseout="this.src='images/present1.jpg'"
+            style:width="100%"
           />
         </td>
       </tr>
@@ -72,6 +73,7 @@
             width="750"
             onmouseover="this.src='https://akm-img-a-in.tosshub.com/indiatoday/images/story/201608/sports-ground-1-26_647_082116083539.jpg'"
             onmouseout="this.src='images/present2.jpg'"
+            style:width="100%"
           />
         </td>
         <td>
@@ -86,16 +88,12 @@
           lay of the land, in terms of how many bodies were involved in this.
           Mr. Das explained that stadiums were mainly owned by the state
           government and in some cases SAI which is part of the Sports Ministry.
-          For example the Jawaharlal Nehru stadium comes under SAI so the
-          control and maintenance and upkeep of the stadium is completely the
-          responsibility of the Government. He went on to explain the AIFF is
-          trying their best to ensure that this infrastructural resources are
-          not wasted. He spoke of an instance when the Nehru stadium was shut
-          down after the Commonwealth Games fiasco how the AIFF reached out to
-          the sports minister and sought permission to use the grounds to play
-          some football games such as the SAFF championship, Nehru cup and
-          Bayern Munich game. Mr. Das went on to explain that in order to do so,
-          AIFF spent a lot of money (approx. 40 lacs) and refurbished the pitch.
+          He spoke of an instance when the Nehru stadium was shut down after the
+          Commonwealth Games fiasco how the AIFF reached out to the sports
+          minister and sought permission to use the grounds to play some
+          football games such as the SAFF championship, Nehru cup and Bayern
+          Munich game. Mr. Das went on to explain that in order to do so, AIFF
+          spent a lot of money (approx. 40 lacs) and refurbished the pitch.
           However there was no maintenance at all from SAI and when the AIFF
           wanted to use the grounds for another Nehru cup they discovered that
           they would have to re-do the pitch again thereby wasting valuable
@@ -128,17 +126,7 @@
           housework. So really positive embodiment talks about a space for
           yourself, a space for self care and that personal time and space is
           not something selfish but something which is absolutely essential and
-          in the cultural context, how do you instill that?” Sonal Kapoor of
-          Magic Bus which also works at grassroots level, echoed this thought
-          “when we train our kids, girls and boys both but more specifically
-          girls, first of all it is a social stigma for them to come out and
-          play. That is the biggest challenge to actually get them out of their
-          homes.” Another stigma faced by female footballers, which was
-          discussed at this meeting, is the required football apparel, i.e.
-          shorts and t-shirt. This form of dress for girls in unacceptable to
-          many families, especially in the more rural areas, where they are
-          opposed to their daughters going out in public and ‘prancing around in
-          scantily clad clothes’.
+          in the cultural context, how do you instill that?”
         </td>
         <td>
           <img
@@ -152,8 +140,15 @@
           />
         </td>
       </tr>
+      <hr />
     </table>
-    <script></script>
-    <hr />
+    <script>
+      function change() {
+        console.log("..starting change func...");
+        document.getElementById("h1").innerText =
+          "The Evolution of Women's Soccer in India...";
+      }
+      document.querySelector("h1").onclick = change;
+    </script>
   </body>
 </html>

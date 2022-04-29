@@ -57,6 +57,7 @@ body {
   background-color: #2a415f;
   color: white;
   font-family: verdana;
+  font-size: 10vw;
 }
 
 h1 {
@@ -72,6 +73,7 @@ h1 {
 }
 body {
   line-height: 30px;
+  font-size:10vw;
 }
 tr,
 td {

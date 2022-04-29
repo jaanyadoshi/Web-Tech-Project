@@ -58,6 +58,7 @@ body {
   color: white;
   font-family: verdana;
   line-height: 30px;
+  font-size:10vw;
 }
 table {
   border: lightskyblue 2px dotted;
